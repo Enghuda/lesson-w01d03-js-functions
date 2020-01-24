@@ -232,24 +232,63 @@ youRock('Mohammad') // 'You rock Mohammad!'
 youRock('Hisham') //'You rock Hisham!'
 youRock('Sager') //'You rock Sager!'
 ```
+//................cod
+
+const youRock = function (name){
+
+    return name;
+    };
+    youRock ('Mohammed');
+
+    //>>>>>> 2
+
+    const square = function (number){
+
+        return number * number;
+        };
+        .................................................
+
 
 2.  Define a `square` function that accepts a number argument and returns that number multiplied by itself.
 ```js
 square(2) // 4
 square(3) // 9
 ```
+//.............code
+
+const square = function (number){
+
+        return number * number;
+        };
+        square (2);
+        ................................
+
 
 3.  Define a `cube` function that accepts a number argument and returns that number raised to the third power.
 ```js
 cube(2) // 8
 cube(3) // 27
 ```
+..................cod
+
+ const cube = function (cube){
+
+            return cube *cube *cube  ;
+            };
+            cube (2);
+            ..........................................
+
 
 4.  Define a `toTheFourth` function that accepts a number argument and returns that number raised to the fourth power.
 ```js
 toTheFourth(2) // 16
 toTheFourth(3) // 81
 ```
+const toTheFourth = function (toTheFourth){
+
+                return toTheFourth *toTheFourth*toTheFourth*toTheFourth  ;
+                };
+                toTheFourth(3);
 
 #### Extra Practice
 
